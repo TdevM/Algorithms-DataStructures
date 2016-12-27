@@ -1,0 +1,13 @@
+
+Adaptor Pattern
+----------------------
+
+   Adaptor pattern implements a class using methods of another class. adaptor classes generalizes another classes.
+
+-> Using a Doubly LinkedList to Implement Double-Ended Queue is Adaptor Pattern.
+
+
+-> Similarly,using a Dequeue(Double-Ended Queue) to Implement a Stack or a Queue is an
+   example of an adaptor pattern.
+
+-> Specialize the type of Object used by a general class eg. Defining an IntegerArrayStack that adapts ArrayStack to store Integers Only.
