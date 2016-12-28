@@ -1,0 +1,27 @@
+  ADTs for Trees
+  ------------------
+
+-> Generic Container Methods: size(),isEmpty(),elements();
+-> Positional Container Methods: positions(),swapElement(p,q),replaceElement(p,e);
+-> Query Methods: isRoot(p),isInternal(p),isExternal(p);
+-> Accessor Methods: root(), parent(p),children(p);
+
+  ADTs for Binary Trees
+  ----------------------
+
+-> Accessor Methods: leftChild(p),rightChild(p),sibling(p);
+
+
+-> Node Structure for a Binary Tree:
+  1) key[x] = data.
+  2) left[x] = pointer to left child.
+  3) right[x] = pointer to right child.
+  4) p[x] = pointer to parent node.
+
+  Tree Walks/Traversals
+  -----------------------
+
+-> Pre-Order
+-> Post-Order
+-> In-order               (Only For Binary trees)
+

@@ -17,6 +17,11 @@ public class StackImplemented {
         System.out.println(stackAsArray.printStack());
         stackAsArray.pop();
         System.out.println(stackAsArray.printStack());
-        System.out.println("Top Element of the Stack: "+ stackAsArray.top());
+        try {
+            System.out.println("Top Element of the Stack: "+ stackAsArray.top());
+
+        }catch (Exception c){
+            System.out.println("Exception Was:" +c);
+        }
     }
 }

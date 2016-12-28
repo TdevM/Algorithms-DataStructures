@@ -45,6 +45,10 @@ public class VectorImplementation {
         //Sorted arrayList
         Collections.sort(integersList);
 
+//        Iterator iterator2 = listVector.iterator();
+//        while (iterator2.hasNext()){
+//            System.out.println("List Vector Elements: "+iterator2.hasNext());
+//        }
 
         //Iterating  integerVector using for-each loop
         for (Object aVector : integerVector) {

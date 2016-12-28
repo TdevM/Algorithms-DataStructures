@@ -11,11 +11,11 @@ public class MyException {
     public static void main(String[] args) {
         MyException myException = new MyException();
     try {
-        myException.testException("SiR");                // Exception Handled using Try-Catch Blocks
+        myException.testException("HeR");                // Exception Handled using Try-Catch Blocks
     }catch (Exception e){
         System.out.println("Error: Your String Contains R");
     }
-        myException.testException("HuR");     // Unhandled Exception
+      //  myException.testException("rrrrrrrrrR");     // Unhandled Exception
     }
 
     private void testException(String s) {

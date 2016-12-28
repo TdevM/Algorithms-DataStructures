@@ -3,7 +3,7 @@ package data_structures.queues;
 /**
  * Created by Tridev on 27-12-2016.
  */
-public class QueueImplemeted {
+public class QueueImplemented {
 
     public static void main(String[] args) {
         QueueAsArray queueAsArray = new QueueAsArray();
